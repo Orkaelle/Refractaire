@@ -14,4 +14,4 @@ entry_points:
       Dense_units: {type: int, default: 128}
       Dense_activation: {type: str, default: 'relu'}
       Dropout2: {type: float, default: 0.5}
-    command: "python BetterBefore.py -r {Conv1_layers} {Conv1_kernelsize} {Conv1_activation} {Conv2_layers} {Conv2_kernelsize} {Conv2_activation} {Dropout1} {Dense_units} {Dense_activation} {Dropout2}"
+    command: "python BetterBefore.py {Conv1_layers} {Conv1_kernelsize} {Conv1_activation} {Conv2_layers} {Conv2_kernelsize} {Conv2_activation} {Dropout1} {Dense_units} {Dense_activation} {Dropout2}"
