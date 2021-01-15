@@ -1,0 +1,17 @@
+name: Refractaire
+conda_env: BetterBefore.yml
+
+entry_points:
+  main:
+    parameters:
+      Conv1_layers: {type: int, default: 32}
+      Conv1_kernelsize: {type: int, default: 3}
+      Conv1_activation: {type: str, default: 'relu'}
+      Conv2_layers: {type: int, default: 64}
+      Conv2_kernelsize: {type: int, default: 3}
+      Conv2_activation: {type: str, default: 'relu'}
+      Dropout1: {type: float, default: 0.25}
+      Dense_units: {type: int, default: 128}
+      Dense_activation: {type: str, default: 'relu'}
+      Dropout2: {type: float, default: 0.5}
+    command: "python BetterBefore.py -r {Conv1_layers} {Conv1_kernelsize} {Conv1_activation} {Conv2_layers} {Conv2_kernelsize} {Conv2_activation} {Dropout1} {Dense_units} {Dense_activation} {Dropout2}"
