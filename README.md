@@ -26,7 +26,7 @@ De lui montrer les principales fonctionnalités :
 Télécharger ou cloner le repo.  
 Lancer la commande suivante dans un terminal, dans le dossier REFRACTAIRE en remplaçant les paramètres {} par les valeurs souhaitées (à renouveler autant de fois que nécessaire avec différents paramètres) :
 ```
-python BetterBefore.py -r {Conv1_layers} {Conv1_kernelsize} {Conv1_activation} {Conv2_layers} {Conv2_kernelsize} {Conv2_activation} {Dropout1} {Dense_units} {Dense_activation} {Dropout2}"
+python BetterBefore.py -r {Conv1_layers} {Conv1_kernelsize} {Conv1_activation} {Conv2_layers} {Conv2_kernelsize} {Conv2_activation} {Dropout1} {Dense_units} {Dense_activation} {Dropout2}
 ``` 
 
 Puis lancer la commande suivante :
