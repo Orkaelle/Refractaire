@@ -1,4 +1,3 @@
-import fct_utiles as fct
 import IA_comptacloud as IACC
 import sys
 
