@@ -4,7 +4,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten, Convolution2D, MaxPooling2D
 from sklearn.model_selection import train_test_split
 import mlflow
-import mlflow.sklearn
 
 car = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9']
 
