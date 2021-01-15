@@ -1,7 +1,7 @@
 import IA_comptacloud as IACC
 import sys
 
-datasetPath = '.dataset.csv'
+datasetPath = 'dataset.csv'
 
 conv1_layers = int(sys.argv[1]) if len(sys.argv) > 1 else 32
 conv1_kernelsize = int(sys.argv[2]) if len(sys.argv) > 2 else 3
